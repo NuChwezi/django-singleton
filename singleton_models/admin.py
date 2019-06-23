@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.utils.translation import ugettext as _
-from django.utils.encoding import force_unicode
+from . compat import force_unicode
 from django.http import HttpResponseRedirect
 from functools import update_wrapper
 
