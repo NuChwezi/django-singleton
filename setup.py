@@ -3,11 +3,11 @@
 from setuptools import setup, find_packages
 
 setup(name='django-singleton',
-    version='0.1.9',
-    description='Reusable singleton models for Django',
-    author='Chris Davis',
-    author_email='defbyte@gmail.com',
-    url='https://github.com/defbyte/django-singleton',
+    version='0.2.0',
+    description='Reusable singleton models for Django (originally by Chris Davis)',
+    author='Nemesis Fixx',
+    author_email='joewillrich@gmail.com',
+    url='https://github.com/NuChwezi/django-singleton',
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
